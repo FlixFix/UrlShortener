@@ -71,20 +71,5 @@ jobs:
     - name: Setup .NET Coverage
       run: dotnet tool install --global dotnet-coverage
 
-    - name: Setup SonarScanner
-      run: dotnet tool install --global dotnet-sonarscanner
-
-    - name: Start SonarScanner
-      run: |
-          dotnet sonarscanner begin \
-            /k:"${{ secrets.SONAR_PROJECT_KEY }}" \
-            /d:sonar.token="${{ secrets.SONAR_TOKEN }}" \
-            /o:"${{ secrets.SONAR_ORGANIZATION }}" \
-            /d:sonar.cs.vscoveragexml.reportsPaths=coverage.xml \
-            /d:sonar.exclusions="**/Migrations/**,**/*.Designer.cs,**/*.g.cs,**/bin/**,**/obj/**,**/Dockerfile"
-
     - name: Run Tests
       run: dotnet build --no-incremental && dotnet-coverage collect 'dotnet test' -f XML -o 'coverage.xml'
-
-    - name: Stop SonarScanner
-      run: dotnet sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
