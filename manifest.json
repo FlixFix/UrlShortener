@@ -1,0 +1,1331 @@
+{
+  "source_base_path": "/home/runner/work/UrlShortener/UrlShortener/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.AppDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.AppDbContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.AppDbContext",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Backend.AppDbContext.yml\" sourcestartlinenumber=\"1\">Database context for the application.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.Business.IJwtTokenGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.Business.IJwtTokenGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.Business.IJwtTokenGenerator",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Backend.Business.IJwtTokenGenerator.yml\" sourcestartlinenumber=\"1\">Provides functionality for generating JSON Web Tokens (JWT).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.Business.IMappingsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.Business.IMappingsService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.Business.IMappingsService",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Backend.Business.IMappingsService.yml\" sourcestartlinenumber=\"1\">Service to manage URL mappings</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.Business.IRedirectLogService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.Business.IRedirectLogService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.Business.IRedirectLogService",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Backend.Business.IRedirectLogService.yml\" sourcestartlinenumber=\"1\">Provides functionality for logging redirect events for shortened URLs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.Business.IUserAgentService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.Business.IUserAgentService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.Business.IUserAgentService",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Backend.Business.IUserAgentService.yml\" sourcestartlinenumber=\"1\">Provides functionality for retrieving and parsing user agent information from a user’s browser.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.Business.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.Business.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.Business",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.Controllers.AuthController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.Controllers.AuthController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.Controllers.AuthController",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Backend.Controllers.AuthController.yml\" sourcestartlinenumber=\"1\">Controller responsible for user authentication, including login and registration endpoints.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.Controllers.HealthCheckController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.Controllers.HealthCheckController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.Controllers.HealthCheckController",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Backend.Controllers.HealthCheckController.yml\" sourcestartlinenumber=\"1\">Simple controller for checking the health status of the API.\nUseful for uptime monitoring and infrastructure health checks.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.Controllers.MappingsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.Controllers.MappingsController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.Controllers.MappingsController",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Backend.Controllers.MappingsController.yml\" sourcestartlinenumber=\"1\">Controller responsible for managing URL mappings for authenticated users.\nAllows users to create, retrieve, delete, and view statistics for their shortened URLs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.Controllers.RedirectController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.Controllers.RedirectController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.Controllers.RedirectController",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Backend.Controllers.RedirectController.yml\" sourcestartlinenumber=\"1\">Controller responsible for handling redirection from short URLs to their corresponding long URLs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.Controllers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.Controllers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.Middleware.DelayMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.Middleware.DelayMiddleware.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.Middleware.DelayMiddleware",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Backend.Middleware.DelayMiddleware.yml\" sourcestartlinenumber=\"1\">Middleware that introduces an artificial delay for authentication-related requests to mitigate brute-force or timing attacks.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.Middleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.Middleware.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.Middleware",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.Migrations.InitialMigration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.Migrations.InitialMigration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.Migrations.InitialMigration",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Backend.Migrations.InitialMigration.yml\" sourcestartlinenumber=\"1\">A base class inherited by each EF Core migration.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.Migrations.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.Migrations",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.Models.UserAgentApiResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.Models.UserAgentApiResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.Models.UserAgentApiResponse",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Backend.Models.UserAgentApiResponse.yml\" sourcestartlinenumber=\"1\">Represents parsed user agent information returned by an external user agent API.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.Models.UserAgentClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.Models.UserAgentClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.Models.UserAgentClient",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Backend.Models.UserAgentClient.yml\" sourcestartlinenumber=\"1\">Represents detailed information about the client software making the request,\nsuch as a browser or app, extracted from the user agent string.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.Models.UserAgentDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.Models.UserAgentDevice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.Models.UserAgentDevice",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Backend.Models.UserAgentDevice.yml\" sourcestartlinenumber=\"1\">Represents information about the physical device extracted from the user agent string.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.Models.UserAgentOs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.Models.UserAgentOs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.Models.UserAgentOs",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Backend.Models.UserAgentOs.yml\" sourcestartlinenumber=\"1\">Represents information about the operating system extracted from the user agent string.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.Program.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend.Program",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Backend.Program.yml\" sourcestartlinenumber=\"1\">Entry point of the URL shortener web application.\nConfigures services, middleware, authentication, and database migrations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Backend.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Backend.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Backend",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Api.AuthApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Api.AuthApi.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Api.AuthApi",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Blazor.Client.Api.AuthApi.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"UrlShortener.App.Blazor.Client.Api.IAuthApi\" data-throw-if-not-resolved=\"false\"></xref> that communicates with the backend authentication API using <xref href=\"System.Net.Http.HttpClient\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Api.IAuthApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Api.IAuthApi.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Api.IAuthApi",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Blazor.Client.Api.IAuthApi.yml\" sourcestartlinenumber=\"1\">Defines methods for communicating with the authentication API,\nsuch as logging in and registering users.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Api.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Api",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Business.AppAuthenticationStateProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Business.AppAuthenticationStateProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Business.AppAuthenticationStateProvider",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Blazor.Client.Business.AppAuthenticationStateProvider.yml\" sourcestartlinenumber=\"1\">Provides the authentication state for the Blazor application using JWT stored in sessionStorage.\nInherits from <xref href=\"Microsoft.AspNetCore.Components.Authorization.AuthenticationStateProvider\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Business.AuthService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Business.AuthService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Business.AuthService",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Blazor.Client.Business.AuthService.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"UrlShortener.App.Blazor.Client.Business.IAuthService\" data-throw-if-not-resolved=\"false\"></xref> that handles authentication and registration logic.\nCoordinates API calls, authentication state updates, navigation, and user notifications.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Business.BrowserTimeProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Business.BrowserTimeProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Business.BrowserTimeProvider",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Blazor.Client.Business.BrowserTimeProvider.yml\" sourcestartlinenumber=\"1\">Provides time zone information based on the user's browser settings.\nInherits from <xref href=\"System.TimeProvider\" data-throw-if-not-resolved=\"false\"></xref> and overrides the local time zone with the one provided by the browser.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Business.IAuthService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Business.IAuthService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Business.IAuthService",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Blazor.Client.Business.IAuthService.yml\" sourcestartlinenumber=\"1\">Defines authentication operations, such as logging in and registering users.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Business.IMappingsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Business.IMappingsService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Business.IMappingsService",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Blazor.Client.Business.IMappingsService.yml\" sourcestartlinenumber=\"1\">Defines operations related to URL mappings, such as creation, retrieval, deletion, and statistics.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Business.MappingsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Business.MappingsService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Business.MappingsService",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Blazor.Client.Business.MappingsService.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"UrlShortener.App.Blazor.Client.Business.IMappingsService\" data-throw-if-not-resolved=\"false\"></xref> that communicates with the backend to manage URL mappings.\nHandles creation, retrieval, deletion, and statistics via authenticated HTTP requests.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Business.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Business.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Business",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Components.Form.LoginForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Components.Form.LoginForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Components.Form.LoginForm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Components.Form.RegisterForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Components.Form.RegisterForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Components.Form.RegisterForm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Components.Form.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Components.Form.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Components.Form",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Components.General.BrowserTimeInitializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Components.General.BrowserTimeInitializer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Components.General.BrowserTimeInitializer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Components.General.MappingDetailsModal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Components.General.MappingDetailsModal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Components.General.MappingDetailsModal",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Components.General.TopMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Components.General.TopMenu.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Components.General.TopMenu",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Components.General.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Components.General.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Components.General",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Components.Layout.MainLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Components.Layout.MainLayout.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Components.Layout.MainLayout",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Components.Layout.RootLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Components.Layout.RootLayout.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Components.Layout.RootLayout",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Components.Layout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Components.Layout.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Components.Layout",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Components.Pages.AuthPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Components.Pages.AuthPage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Components.Pages.AuthPage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Components.Pages.ErrorPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Components.Pages.ErrorPage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Components.Pages.ErrorPage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Components.Pages.HomePage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Components.Pages.HomePage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Components.Pages.HomePage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Components.Pages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Components.Pages.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Components.Pages",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Components.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": null,
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Program.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Program",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Blazor.Client.Program.yml\" sourcestartlinenumber=\"1\">Entry point for the Blazor WebAssembly client application.\nSets up the host and launches the app in the browser.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.Routes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.Routes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client.Routes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client._Imports.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client._Imports.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client._Imports",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Client.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Client",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Components.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Components.App.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Components.App",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Components.Pages.Error.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Components.Pages.Error.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Components.Pages.Error",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Components.Pages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Components.Pages.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Components.Pages",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Components._Imports.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Components._Imports.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Components._Imports",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Components.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Components",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.Program.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor.Program",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Blazor.Program.yml\" sourcestartlinenumber=\"1\">Entry point for the Blazor Server application.\nConfigures services, HTTP clients, authentication, and UI frameworks, and starts the web host.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Blazor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Blazor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Blazor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Dto.ClickDataPointDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Dto.ClickDataPointDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Dto.ClickDataPointDto",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Dto.ClickDataPointDto.yml\" sourcestartlinenumber=\"1\">Represents a data point for click statistics, including the timestamp and number of clicks.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Dto.CreateMappingRequestDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Dto.CreateMappingRequestDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Dto.CreateMappingRequestDto",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Dto.CreateMappingRequestDto.yml\" sourcestartlinenumber=\"1\">Represents the request payload for creating a new shortened URL mapping.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Dto.CreateMappingResponseDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Dto.CreateMappingResponseDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Dto.CreateMappingResponseDto",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Dto.CreateMappingResponseDto.yml\" sourcestartlinenumber=\"1\">Represents the response returned after successfully creating a shortened URL mapping.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Dto.DeviceTypeDataPointDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Dto.DeviceTypeDataPointDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Dto.DeviceTypeDataPointDto",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Dto.DeviceTypeDataPointDto.yml\" sourcestartlinenumber=\"1\">Represents a data transfer object for device type statistics of URL mappings.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Dto.LoginRequestDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Dto.LoginRequestDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Dto.LoginRequestDto",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Dto.LoginRequestDto.yml\" sourcestartlinenumber=\"1\">Represents the request payload for logging in a user.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Dto.LoginResponseDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Dto.LoginResponseDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Dto.LoginResponseDto",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Dto.LoginResponseDto.yml\" sourcestartlinenumber=\"1\">Represents the response returned after a successful login request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Dto.RedirectLogDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Dto.RedirectLogDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Dto.RedirectLogDto",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Dto.RedirectLogDto.yml\" sourcestartlinenumber=\"1\">Represents a log entry for a URL redirection, including access metadata and client details.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Dto.RegisterErrorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Dto.RegisterErrorType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Dto.RegisterErrorType",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Dto.RegisterErrorType.yml\" sourcestartlinenumber=\"1\">Represents the possible error types that can occur during user registration.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Dto.RegisterRequestDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Dto.RegisterRequestDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Dto.RegisterRequestDto",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Dto.RegisterRequestDto.yml\" sourcestartlinenumber=\"1\">Represents the request payload for registering a new user.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Dto.RegisterResponseDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Dto.RegisterResponseDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Dto.RegisterResponseDto",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Dto.RegisterResponseDto.yml\" sourcestartlinenumber=\"1\">Represents the response returned after a user registration attempt.\nIndicates whether registration was successful and, if not, the type of error encountered.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Dto.TimeSeriesStatsDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Dto.TimeSeriesStatsDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Dto.TimeSeriesStatsDto",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Dto.TimeSeriesStatsDto.yml\" sourcestartlinenumber=\"1\">Represents the data transfer object for time series statistics of URL mappings.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Dto.UrlMappingDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Dto.UrlMappingDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Dto.UrlMappingDto",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Dto.UrlMappingDto.yml\" sourcestartlinenumber=\"1\">Represents a shortened URL mapping along with its metadata and redirect logs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Dto.UserAgentClientDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Dto.UserAgentClientDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Dto.UserAgentClientDto",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Dto.UserAgentClientDto.yml\" sourcestartlinenumber=\"1\">Represents details about the client software (e.g., browser or app) extracted from a user agent string.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Dto.UserAgentDeviceDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Dto.UserAgentDeviceDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Dto.UserAgentDeviceDto",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Dto.UserAgentDeviceDto.yml\" sourcestartlinenumber=\"1\">Represents information about the user's physical device, extracted from the user agent string.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Dto.UserAgentInfoDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Dto.UserAgentInfoDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Dto.UserAgentInfoDto",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Dto.UserAgentInfoDto.yml\" sourcestartlinenumber=\"1\">Represents structured information about a user's environment, parsed from a user agent string.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Dto.UserAgentOsDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Dto.UserAgentOsDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Dto.UserAgentOsDto",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Dto.UserAgentOsDto.yml\" sourcestartlinenumber=\"1\">Represents information about the operating system extracted from the user agent string.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Dto.UserStatsDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Dto.UserStatsDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Dto.UserStatsDto",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Dto.UserStatsDto.yml\" sourcestartlinenumber=\"1\">Represents aggregated statistics for a user, including total clicks and total URL mappings.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Dto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Dto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Dto",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Extensions.DtoExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Extensions.DtoExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Extensions.DtoExtensions",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Extensions.DtoExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for converting entity models to their corresponding DTO representations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Models.RedirectLog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Models.RedirectLog.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Models.RedirectLog",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Models.RedirectLog.yml\" sourcestartlinenumber=\"1\">Represents a log entry for a redirection event, including metadata about the request and client environment.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Models.UrlMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Models.UrlMapping.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Models.UrlMapping",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Models.UrlMapping.yml\" sourcestartlinenumber=\"1\">Represents a shortened URL mapping, including the original URL, its short path, metadata, and related redirect logs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Models.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Models.User.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Models.User",
+      "Summary": "<p sourcefile=\"api/UrlShortener.App.Shared.Models.User.yml\" sourcestartlinenumber=\"1\">Represents a registered user in the system, including authentication credentials.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UrlShortener.App.Shared.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.Shared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.Shared.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": null,
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UrlShortener.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UrlShortener.App.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": null,
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Containerdiagramm.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Containerdiagramm.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Komponentendiagramm_Backend.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Komponentendiagramm_Backend.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Komponentendiagramm_Frontend.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Komponentendiagramm_Frontend.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Kontextdiagramm.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Kontextdiagramm.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sc1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sc1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sc2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sc2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "usage.md",
+      "output": {
+        ".html": {
+          "relative_path": "usage.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
